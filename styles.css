@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    background-color: #f5f5dc; /* Light cream color */
+    font-family: 'Arial', sans-serif; /* Font family for the whole page */
+    color: #333333; /* Universal font color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Content styling */
+.content {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px; /* Increased max-width for better layout */
+}
+
+/* Flexbox container for main layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Ensures space between the columns */
+    align-items: flex-start; /* Align items at the start of the flex container */
+}
+
+/* Styling for the left part of the flex container */
+.flex-item-left {
+    flex: 2; /* Adjusted for better space management */
+    padding: 10px;
+}
+
+/* Styling for the right part of the flex container */
+.flex-item-right {
+    flex: 1;
+    padding: 10px;
+    border-left: 2px solid #dcdcdc; /* Adds a subtle border to separate content */
+    max-width: 300px;
+}
+
+/* Header styling */
+h1, h2 {
+    color: #5a5a5a; /* Dark grey color for headers */
+}
+
+/* Navigation link styling */
+nav a {
+    color: #007bff; /* Bootstrap-like link color */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    background-color: lightslategray;
+}
